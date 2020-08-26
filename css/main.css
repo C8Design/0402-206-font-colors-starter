@@ -1,0 +1,80 @@
+body, html {
+  text-align: center;
+  font-family: Gotham, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  color: #ff8641;
+}
+
+section {
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2em;
+  color: #7b7d70;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #4eafb8;
+}
+
+
+
+/*---------- TABLET ----------*/
+/* Change font colors */
+
+@media (min-width: 768px) {
+body, html {
+  text-align: center;
+  font-family: Gotham, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  color: #02cbd2;
+}
+
+section {
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2em;
+  color: #fcc02a;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #7b8f8e;
+}
+}
+
+
+
+
+/*--------- DESKTOP ----------*/
+/* Change font colors */
+
+@media (min-width: 1200px){
+  body, html {
+    text-align: center;
+    font-family: Gotham, Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    color: #6e4b61;
+  }
+
+  section {
+    width: 50%;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 2em;
+    color: #cabd61;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    color: #c19e74;
+  }
+}
